@@ -5,10 +5,11 @@ import java.util.Collections;
 
 public class ArrayListExample {
     public static void main(String[] args) {
-
+// added some code
         // wrapper class
 //        int a=10; int b=-10; int c=null; cannot store null value
 //        Integer d= null;
+// added some code
 
         //declaring ArrayList
         ArrayList<Integer> list1 = new ArrayList<>();
@@ -37,14 +38,12 @@ public class ArrayListExample {
         //search
         System.out.println("2nd index element is : "+list1.get(2));
         System.out.println("5th index element is : "+list1.get(5));
-
         //size
         System.out.println("length of list1 is : "+list1.size());
 
         //sort
         Collections.sort(list1);//sort in ascending order
         System.out.println("list1 in ascending order : "+list1);
-
         Collections.sort(list1, Collections.reverseOrder());//sort in descending order
         System.out.println("list1 in descending order : "+list1);
 
