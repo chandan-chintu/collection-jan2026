@@ -8,6 +8,7 @@ public class LinkedListExample {
     public static void main(String[] args) {
         //declaring ArrayList
         LinkedList<Integer> list1 = new LinkedList<>();
+// added some code
 
         // add the values
         list1.add(34);
@@ -21,7 +22,6 @@ public class LinkedListExample {
         list1.add(10);
         //list1.add(null);
         list1.add(5);
-
         System.out.println("list1 is : "+list1);
 
         // removing
